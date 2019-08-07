@@ -1,0 +1,754 @@
+[2019-07-18 15:31:40.962753] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:40.962922] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:40.962941] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:40.962947] [13804] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:31:41.963343] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:41.963455] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:41.963474] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:42.963903] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:42.964014] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:42.964033] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:43.964636] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:43.964743] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:43.964762] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:44.965387] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:44.965496] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:44.965514] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:45.966021] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:45.966127] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:45.966146] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:46.966849] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:46.966889] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:46.966895] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:47.967587] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:47.967696] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:47.967716] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:48.968293] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:48.968402] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:48.968422] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:49.968930] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:49.969039] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:49.969058] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:50.969766] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:50.969875] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:50.969895] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:51.970581] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:51.970690] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:51.970709] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:52.971272] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:52.971383] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:52.971404] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:53.971907] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:53.972015] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:53.972035] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:54.972704] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:54.972814] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:54.972834] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:55.973429] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:55.973539] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:55.973559] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:56.973994] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:56.974104] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:56.974123] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:57.974722] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:57.974832] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:57.974852] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:58.975325] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:58.975433] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:58.975454] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:59.975940] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:31:59.976052] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:31:59.976072] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:00.976640] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:00.976748] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:00.976768] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:01.977405] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:01.977533] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:01.977552] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:02.977988] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:02.978019] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:02.978038] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:03.978736] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:03.978851] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:03.978870] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:04.979328] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:04.979436] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:04.979455] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:05.979932] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:05.980011] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:05.980024] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:06.980737] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:06.980842] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:06.980862] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:07.981337] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:07.981446] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:07.981465] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:08.981936] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:08.982042] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:08.982061] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:09.982755] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:09.982863] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:09.982882] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:10.983568] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:10.983680] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:10.983699] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:11.984204] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:11.984312] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:11.984330] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:12.984764] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:12.984872] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:12.984890] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:13.985530] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:13.985637] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:13.985656] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:14.986197] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:14.986306] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:14.986325] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:15.986867] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:15.986974] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:15.987012] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:16.987723] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:16.987833] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:16.987851] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:17.988325] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:17.988442] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:17.988461] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:18.988925] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:18.989039] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:18.989057] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:19.989740] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:19.989852] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:19.989871] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:20.990419] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:20.990528] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:20.990547] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:21.991020] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:21.991132] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:21.991151] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:22.991712] [13804] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:22.991820] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:22.991839] [13804] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:23.519613] [13804] [vip]ut_signal.c:82(signal_handler): [13804]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:32:23.519602] [13802] [vip]ut_signal.c:82(signal_handler): [13802]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:32:23.963234] [13804] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:32:24.523958] [13857] [info]ah_server.c:356(on_listener_connect): connect listener fail
+[2019-07-18 15:32:24.524122] [13857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:24.524143] [13857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:32:24.524150] [13857] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:32:24.524156] [13856] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:32:25.524249] [13857] [info]ah_server.c:354(on_listener_connect): connect listener success
+[2019-07-18 15:32:25.524322] [13856] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:32:37.602219] [13857] [vip]ut_signal.c:86(signal_handler): [13857]signal: 15 (SIGTERM) received, exiting
+[2019-07-18 15:32:37.602244] [13856] [vip]ut_signal.c:86(signal_handler): [13856]signal: 15 (SIGTERM) received, exiting
+[2019-07-18 15:32:37.602262] [13855] [vip]ut_signal.c:86(signal_handler): [13855]signal: 15 (SIGTERM) received, exiting
+[2019-07-18 15:32:37.602261] [13854] [vip]ut_signal.c:86(signal_handler): [13854]signal: 15 (SIGTERM) received, exiting
+[2019-07-18 15:32:38.024868] [13857] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:32:38.024885] [13856] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:32:42.003282] [13912] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:32:42.003511] [13912] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:32:42.003302] [13913] [info]ah_server.c:354(on_listener_connect): connect listener success
+[2019-07-18 15:32:42.003456] [13913] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:32:44.261126] [13913] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:33316
+[2019-07-18 15:32:44.261196] [13913] [trace]ah_server.c:259(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:32:44.261205] [13913] [trace]ah_server.c:281(on_http_request): from: 10.235.20.85:33316 body: {"id":16,"method":"contract.insert_memo","params":[1]}
+[2019-07-18 15:32:44.280243] [13913] [trace]ah_server.c:238(handler_memo_request): cleos response:
+[31mError 3050003: eosio_assert_message assertion failure[0m
+[33mError Details:
+assertion failure with message: memo exist[0m
+
+[2019-07-18 15:32:44.280445] [13913] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:33316 close
+[2019-07-18 15:32:57.766997] [13913] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:33482
+[2019-07-18 15:32:57.767059] [13913] [trace]ah_server.c:259(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:32:57.767068] [13913] [trace]ah_server.c:281(on_http_request): from: 10.235.20.85:33482 body: {"id":16,"method":"contract.insert_memo","params":[3]}
+[2019-07-18 15:32:57.782198] [13913] [trace]ah_server.c:238(handler_memo_request): cleos response:
+executed transaction: 6c3e3147f9d2ccf02d2cd4cfcface9f832de0467087d8ca75766c533f19d7db8  104 bytes  198 us
+warn  2019-07-18T07:32:57.781 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":3}
+
+[2019-07-18 15:32:57.782443] [13913] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:33482 close
+[2019-07-18 15:33:29.553571] [13913] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:33860
+[2019-07-18 15:33:29.553623] [13913] [trace]ah_server.c:259(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:33:29.553631] [13913] [trace]ah_server.c:281(on_http_request): from: 10.235.20.85:33860 body: {"id":16,"method":"contract.insert_memo","params":[4]}
+[2019-07-18 15:33:29.566961] [13913] [trace]ah_server.c:238(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:33:29.567031] [13913] [trace]ah_server.c:100(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8
+[2019-07-18 15:33:29.567125] [13913] [trace]ah_server.c:114(unlock_wallet): cleos response:
+
+[2019-07-18 15:33:29.567131] [13913] [vip]ah_server.c:119(unlock_wallet): 
+[2019-07-18 15:33:29.567379] [13913] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:33860 close
+[2019-07-18 15:33:38.605058] [13913] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:33980
+[2019-07-18 15:33:38.605115] [13913] [trace]ah_server.c:259(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:33:38.605124] [13913] [trace]ah_server.c:281(on_http_request): from: 10.235.20.85:33980 body: {"id":16,"method":"contract.insert_memo","params":[4]}
+[2019-07-18 15:33:38.625957] [13913] [trace]ah_server.c:238(handler_memo_request): cleos response:
+executed transaction: c9cdc1411428f3704925f646634f846094b6b9d451493545597046a5bd0ff48e  104 bytes  143 us
+warn  2019-07-18T07:33:38.625 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":4}
+
+[2019-07-18 15:33:38.626255] [13913] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:33980 close
+[2019-07-18 15:36:22.413146] [13913] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:35932
+[2019-07-18 15:36:22.413216] [13913] [trace]ah_server.c:259(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:36:22.413224] [13913] [trace]ah_server.c:281(on_http_request): from: 10.235.20.85:35932 body: {"id":16,"method":"contract.insert_memo","params":[5]}
+[2019-07-18 15:36:22.426550] [13913] [trace]ah_server.c:238(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:36:22.426606] [13913] [trace]ah_server.c:100(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8
+[2019-07-18 15:36:22.426677] [13913] [trace]ah_server.c:114(unlock_wallet): cleos response:
+
+[2019-07-18 15:36:22.426683] [13913] [vip]ah_server.c:119(unlock_wallet): 
+[2019-07-18 15:36:22.426836] [13913] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:35932 close
+[2019-07-18 15:36:23.433026] [13913] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:35950
+[2019-07-18 15:36:23.433076] [13913] [trace]ah_server.c:259(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:36:23.433084] [13913] [trace]ah_server.c:281(on_http_request): from: 10.235.20.85:35950 body: {"id":16,"method":"contract.insert_memo","params":[5]}
+[2019-07-18 15:36:23.451748] [13913] [trace]ah_server.c:238(handler_memo_request): cleos response:
+executed transaction: 6ba126126864244f1423538292335c283155fa607706a3db2401572d4c9e0dac  104 bytes  133 us
+warn  2019-07-18T07:36:23.451 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":5}
+
+[2019-07-18 15:36:23.451948] [13913] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:35950 close
+[2019-07-18 15:40:09.265789] [13912] [vip]ut_signal.c:82(signal_handler): [13912]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:40:09.265805] [13913] [vip]ut_signal.c:82(signal_handler): [13913]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:40:09.265766] [13910] [vip]ut_signal.c:82(signal_handler): [13910]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:40:09.265779] [13911] [vip]ut_signal.c:82(signal_handler): [13911]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:40:09.503077] [13912] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:40:09.503503] [13913] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:40:09.503592] [13913] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:40:10.270176] [14292] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:40:10.270415] [14292] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:40:10.270227] [14293] [info]ah_server.c:355(on_listener_connect): connect listener success
+[2019-07-18 15:40:10.270397] [14293] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:40:16.885045] [14293] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:38702
+[2019-07-18 15:40:16.885105] [14293] [trace]ah_server.c:260(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:40:16.885113] [14293] [trace]ah_server.c:282(on_http_request): from: 10.235.20.85:38702 body: {"id":16,"method":"contract.insert_memo","params":[6]}
+[2019-07-18 15:40:16.899414] [14293] [trace]ah_server.c:239(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:40:16.899455] [14293] [trace]ah_server.c:101(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 15:40:16.906768] [14293] [trace]ah_server.c:115(unlock_wallet): cleos response:
+Unlocked: default
+
+[2019-07-18 15:42:39.490694] [14293] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:38702 close
+[2019-07-18 15:42:51.448406] [14292] [vip]ut_signal.c:82(signal_handler): [14292]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:42:51.448438] [14293] [vip]ut_signal.c:82(signal_handler): [14293]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:42:51.448404] [14291] [vip]ut_signal.c:82(signal_handler): [14291]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:42:51.448399] [14290] [vip]ut_signal.c:82(signal_handler): [14290]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:42:51.770941] [14292] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:42:51.770957] [14293] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:42:52.453019] [14471] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:42:52.453258] [14471] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:42:52.453107] [14472] [info]ah_server.c:356(on_listener_connect): connect listener success
+[2019-07-18 15:42:52.453265] [14472] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:43:03.342525] [14472] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:40680
+[2019-07-18 15:43:03.342582] [14472] [trace]ah_server.c:261(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:43:03.342592] [14472] [trace]ah_server.c:283(on_http_request): from: 10.235.20.85:40680 body: {"id":16,"method":"contract.insert_memo","params":[6]}
+[2019-07-18 15:43:03.356713] [14472] [trace]ah_server.c:240(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:43:03.356748] [14472] [trace]ah_server.c:101(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 15:43:03.361725] [14472] [trace]ah_server.c:115(unlock_wallet): cleos response:
+Unlocked: default
+
+[2019-07-18 15:43:38.820764] [14472] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:40680 close
+[2019-07-18 15:44:24.410786] [14471] [vip]ut_signal.c:82(signal_handler): [14471]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:44:24.410725] [14469] [vip]ut_signal.c:82(signal_handler): [14469]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:44:24.410794] [14472] [vip]ut_signal.c:82(signal_handler): [14472]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:44:24.410760] [14470] [vip]ut_signal.c:82(signal_handler): [14470]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:44:24.453108] [14471] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:44:24.453301] [14472] [error]ut_rpc_clt.c:31(on_error_msg): peer: unix:/tmp/currency_server_listener.sock: sendmsg error: Broken pipe
+[2019-07-18 15:44:24.453324] [14472] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:44:24.453333] [14472] [error]ut_rpc_clt.c:97(on_timer): send heartbeat to: unix:/tmp/currency_server_listener.sock fail: -1
+[2019-07-18 15:44:24.453335] [14472] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:44:35.406004] [14621] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:44:35.406004] [14622] [info]ah_server.c:358(on_listener_connect): connect listener fail
+[2019-07-18 15:44:35.406160] [14622] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:44:35.406179] [14622] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:44:35.406186] [14622] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:44:36.406775] [14622] [info]ah_server.c:356(on_listener_connect): connect listener success
+[2019-07-18 15:44:36.406847] [14621] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:44:59.794973] [14622] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:42058
+[2019-07-18 15:44:59.795042] [14622] [trace]ah_server.c:261(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:44:59.795050] [14622] [trace]ah_server.c:283(on_http_request): from: 10.235.20.85:42058 body: {"id":16,"method":"contract.insert_memo","params":[6]}
+[2019-07-18 15:44:59.809487] [14622] [trace]ah_server.c:240(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:44:59.809517] [14622] [trace]ah_server.c:101(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 15:44:59.814740] [14622] [trace]ah_server.c:115(unlock_wallet): cleos response:
+Unlocked: default
+
+[2019-07-18 15:45:23.722608] [14622] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:42058 close
+[2019-07-18 15:45:54.849498] [14621] [vip]ut_signal.c:82(signal_handler): [14621]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:45:54.849513] [14622] [vip]ut_signal.c:82(signal_handler): [14622]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:45:54.849466] [14619] [vip]ut_signal.c:82(signal_handler): [14619]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:45:54.849490] [14620] [vip]ut_signal.c:82(signal_handler): [14620]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:45:54.906727] [14621] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:45:54.906764] [14622] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:45:55.853903] [14758] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:45:55.854141] [14758] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:45:55.853948] [14759] [info]ah_server.c:357(on_listener_connect): connect listener success
+[2019-07-18 15:45:55.854121] [14759] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:46:02.419786] [14759] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:42798
+[2019-07-18 15:46:02.419846] [14759] [trace]ah_server.c:262(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:46:02.419855] [14759] [trace]ah_server.c:284(on_http_request): from: 10.235.20.85:42798 body: {"id":16,"method":"contract.insert_memo","params":[6]}
+[2019-07-18 15:46:02.419859] [14759] [trace]ah_server.c:229(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 6}' -p deposit 2>&1
+[2019-07-18 15:46:02.433727] [14759] [trace]ah_server.c:241(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:46:02.433757] [14759] [trace]ah_server.c:101(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 15:46:02.438630] [14759] [trace]ah_server.c:115(unlock_wallet): cleos response:
+Unlocked: default
+
+[2019-07-18 15:50:09.151343] [14759] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:42798 close
+[2019-07-18 15:50:17.734319] [14758] [vip]ut_signal.c:82(signal_handler): [14758]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:50:17.734336] [14759] [vip]ut_signal.c:82(signal_handler): [14759]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:50:17.734298] [14756] [vip]ut_signal.c:82(signal_handler): [14756]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:50:17.734311] [14757] [vip]ut_signal.c:82(signal_handler): [14757]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:50:17.854738] [14758] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:50:17.854755] [14759] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:50:18.738856] [14976] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:50:18.738709] [14977] [info]ah_server.c:364(on_listener_connect): connect listener fail
+[2019-07-18 15:50:18.738865] [14977] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:50:18.738884] [14977] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:50:18.738890] [14977] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:50:19.739367] [14977] [info]ah_server.c:362(on_listener_connect): connect listener success
+[2019-07-18 15:50:19.739419] [14976] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:50:22.259609] [14977] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:45914
+[2019-07-18 15:50:22.259669] [14977] [trace]ah_server.c:267(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:50:22.259677] [14977] [trace]ah_server.c:289(on_http_request): from: 10.235.20.85:45914 body: {"id":16,"method":"contract.insert_memo","params":[6]}
+[2019-07-18 15:50:22.259681] [14977] [trace]ah_server.c:230(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 6}' -p deposit 2>&1
+[2019-07-18 15:50:22.274240] [14977] [trace]ah_server.c:242(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+
+[2019-07-18 15:50:22.274285] [14977] [trace]ah_server.c:101(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 15:50:22.279958] [14977] [trace]ah_server.c:115(unlock_wallet): cleos response:
+Unlocked: default
+
+[2019-07-18 15:50:22.279965] [14977] [trace]ah_server.c:230(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 6}' -p deposit 2>&1
+[2019-07-18 15:50:22.298058] [14977] [trace]ah_server.c:242(handler_memo_request): cleos response:
+executed transaction: dade2fa3440dd50b94bf57991ce040b451a302fa41444086c596bd02d4dbf2c8  104 bytes  146 us
+warn  2019-07-18T07:50:22.297 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":6}
+
+[2019-07-18 15:50:22.298239] [14977] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:45914 close
+[2019-07-18 15:50:29.406037] [14977] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:46014
+[2019-07-18 15:50:29.406089] [14977] [trace]ah_server.c:267(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:50:29.406097] [14977] [trace]ah_server.c:289(on_http_request): from: 10.235.20.85:46014 body: {"id":16,"method":"contract.insert_memo","params":[7]}
+[2019-07-18 15:50:29.406124] [14977] [trace]ah_server.c:230(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 7}' -p deposit 2>&1
+[2019-07-18 15:50:29.415291] [14977] [trace]ah_server.c:242(handler_memo_request): cleos response:
+executed transaction: 8c27966331832febea96ca01b329df082137ac40af155d260ee15192716dcbb8  104 bytes  125 us
+warn  2019-07-18T07:50:29.414 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":7}
+
+[2019-07-18 15:50:29.415442] [14977] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:46014 close
+[2019-07-18 15:55:17.533463] [14976] [vip]ut_signal.c:82(signal_handler): [14976]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:55:17.533466] [14974] [vip]ut_signal.c:82(signal_handler): [14974]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:55:17.533481] [14975] [vip]ut_signal.c:82(signal_handler): [14975]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:55:17.533563] [14977] [vip]ut_signal.c:82(signal_handler): [14977]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 15:55:17.738774] [14976] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:55:17.739023] [14977] [vip]ah_main.c:117(main): server stop
+[2019-07-18 15:55:18.538642] [15292] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:55:18.538477] [15293] [info]ah_server.c:366(on_listener_connect): connect listener fail
+[2019-07-18 15:55:18.538633] [15293] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:55:18.538653] [15293] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 15:55:18.538659] [15293] [vip]ah_main.c:114(main): server start
+[2019-07-18 15:55:19.539135] [15293] [info]ah_server.c:364(on_listener_connect): connect listener success
+[2019-07-18 15:55:19.539212] [15292] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 15:55:27.834681] [15293] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:49600
+[2019-07-18 15:55:27.834756] [15293] [trace]ah_server.c:269(on_http_request): new http request, url: /, method: 3
+[2019-07-18 15:55:27.834766] [15293] [trace]ah_server.c:291(on_http_request): from: 10.235.20.85:49600 body: {"id":16,"method":"contract.insert_memo","params":[8]}
+[2019-07-18 15:55:27.834770] [15293] [trace]ah_server.c:230(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 8}' -p deposit 2>&1
+[2019-07-18 15:55:27.844343] [15293] [trace]ah_server.c:245(handler_memo_request): cleos response:
+executed transaction: a27c81ff75108e113aca031297d32e717d9052050e839e78dc1e598a1ee4579e  104 bytes  122 us
+warn  2019-07-18T07:55:27.843 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":8}
+[2019-07-18 15:55:27.844491] [15293] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:49600 close
+[2019-07-18 15:59:20.506963] [15292] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 2
+[2019-07-18 15:59:20.506891] [15682] [info]ah_server.c:370(on_listener_connect): connect listener success
+[2019-07-18 15:59:20.507085] [15682] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:00:12.609605] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:12.609765] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:12.609785] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:12.609791] [15758] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:00:13.610347] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:13.610467] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:13.610487] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:14.611068] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:14.611227] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:14.611250] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:15.611755] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:15.611878] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:15.611898] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:16.612621] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:16.612740] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:16.612760] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:17.613354] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:17.613491] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:17.613512] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:18.614140] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:18.614254] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:18.614272] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:19.614772] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:19.614889] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:19.614908] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:20.615522] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:20.615644] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:20.615664] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:21.616212] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:21.616330] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:21.616350] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:22.616876] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:22.616927] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:22.616935] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:23.617527] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:23.617643] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:23.617662] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:24.618329] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:24.618386] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:24.618395] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:25.618886] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:25.619033] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:25.619054] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:26.619663] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:26.619778] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:26.619797] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:27.620521] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:27.620647] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:27.620666] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:28.621102] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:28.621220] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:28.621239] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:29.621823] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:29.621936] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:29.621956] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:30.622498] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:30.622577] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:30.622587] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:31.623112] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:31.623232] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:31.623250] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:32.623802] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:32.623927] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:32.623947] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:33.624521] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:33.624641] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:33.624661] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:34.625248] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:34.625365] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:34.625384] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:35.625861] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:35.625983] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:35.626003] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:36.626512] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:36.626631] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:36.626651] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:37.627213] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:37.627333] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:37.627352] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:38.627795] [15758] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:38.627915] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:38.627933] [15758] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:57.390147] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:57.390312] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:57.390333] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:57.390339] [15857] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:00:58.390873] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:58.391035] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:58.391056] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:59.391546] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:00:59.391663] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:00:59.391683] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:00.391686] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:00.391803] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:00.391822] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:01.392274] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:01.392386] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:01.392406] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:02.393144] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:02.393274] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:02.393295] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:03.394026] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:03.394145] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:03.394167] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:04.394772] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:04.394889] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:04.394910] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:05.395447] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:05.395580] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:05.395600] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:06.396114] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:06.396228] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:06.396247] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:07.396942] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:07.397054] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:07.397074] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:08.397738] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:08.397801] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:08.397810] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:09.398320] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:09.398445] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:09.398466] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:10.399121] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:10.399238] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:10.399258] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:11.400001] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:11.400081] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:11.400092] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:12.400714] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:12.400820] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:12.400836] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:13.401366] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:13.401484] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:13.401503] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:14.402069] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:14.402184] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:14.402204] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:15.402794] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:15.402915] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:15.402934] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:16.403420] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:16.403517] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:16.403533] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:17.403727] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:17.403837] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:17.403856] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:18.404356] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:18.404474] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:18.404493] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:19.405042] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:19.405160] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:19.405179] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:20.405807] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:20.405916] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:20.405935] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:21.406454] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:21.406584] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:21.406605] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:22.407243] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:22.407286] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:22.407292] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:23.408050] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:23.408145] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:23.408160] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:24.408742] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:24.408865] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:24.408885] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:25.409369] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:25.409481] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:25.409501] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:26.409980] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:26.410092] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:26.410113] [15857] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:27.410688] [15857] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:30.483319] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:30.483476] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:30.483496] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:30.483503] [15916] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:01:31.484073] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:31.484184] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:31.484203] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:32.484220] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:32.484343] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:32.484364] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:33.484872] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:33.484987] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:33.485005] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:34.485086] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:34.485202] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:34.485222] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:35.485354] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:35.485469] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:35.485487] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:36.486204] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:36.486316] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:36.486334] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:37.486932] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:37.487072] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:37.487092] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:38.487447] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:38.487565] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:38.487584] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:39.488216] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:39.488329] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:39.488348] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:40.488943] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:40.489063] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:40.489082] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:41.489458] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:41.489584] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:41.489605] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:42.490205] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:42.490323] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:42.490341] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:43.490937] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:43.491081] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:43.491100] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:44.491448] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:01:44.491564] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:44.491582] [15916] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:01:45.492250] [15916] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:02:21.683538] [15986] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:02:21.683384] [15987] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:02:21.683533] [15987] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:02:21.683553] [15987] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:02:21.683560] [15987] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:02:22.684062] [15987] [info]ah_server.c:370(on_listener_connect): connect listener success
+[2019-07-18 16:02:22.684109] [15986] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 16:02:38.562230] [15987] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:54812
+[2019-07-18 16:02:38.562294] [15987] [trace]ah_server.c:275(on_http_request): new http request, url: /, method: 3
+[2019-07-18 16:02:38.562302] [15987] [trace]ah_server.c:297(on_http_request): from: 10.235.20.85:54812 body: {"id":16,"method":"contract.insert_memo","params":[9]}
+[2019-07-18 16:02:38.562307] [15987] [trace]ah_server.c:235(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 9}' -p deposit 2>&1
+[2019-07-18 16:02:38.572872] [15987] [trace]ah_server.c:251(handler_memo_request): cleos response:
+executed transaction: 96e424372bf640ce549356908c81882fe64ed97ecd9b782cf16504253e335daa  104 bytes  158 us
+warn  2019-07-18T08:02:38.572 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":9}
+[2019-07-18 16:02:38.573085] [15987] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:54812 close
+[2019-07-18 16:05:31.634744] [15986] [vip]ut_signal.c:82(signal_handler): [15986]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:05:31.634753] [15987] [vip]ut_signal.c:82(signal_handler): [15987]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:05:31.634685] [15984] [vip]ut_signal.c:82(signal_handler): [15984]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:05:31.634717] [15985] [vip]ut_signal.c:82(signal_handler): [15985]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:05:31.684070] [15986] [vip]ah_main.c:117(main): server stop
+[2019-07-18 16:05:31.684092] [15987] [vip]ah_main.c:117(main): server stop
+[2019-07-18 16:05:32.639284] [16188] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:05:32.639261] [16189] [info]ah_server.c:372(on_listener_connect): connect listener fail
+[2019-07-18 16:05:32.639425] [16189] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:05:32.639445] [16189] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:05:32.639451] [16189] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:05:33.640027] [16189] [info]ah_server.c:370(on_listener_connect): connect listener success
+[2019-07-18 16:05:33.640095] [16188] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 16:05:48.988431] [16189] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:57078
+[2019-07-18 16:05:48.988499] [16189] [trace]ah_server.c:275(on_http_request): new http request, url: /, method: 3
+[2019-07-18 16:05:48.988511] [16189] [trace]ah_server.c:297(on_http_request): from: 10.235.20.85:57078 body: {"id":16,"method":"contract.insert_memo","params":[10]}
+[2019-07-18 16:05:48.988516] [16189] [trace]ah_server.c:235(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 10}' -p deposit 2>&1
+[2019-07-18 16:05:49.002823] [16189] [trace]ah_server.c:251(handler_memo_request): cleos response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+[2019-07-18 16:05:49.002869] [16189] [trace]ah_server.c:106(unlock_wallet): unlock wallet /home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 16:05:49.009552] [16189] [trace]ah_server.c:120(unlock_wallet): cleos response:
+Unlocked: default
+
+[2019-07-18 16:05:49.009561] [16189] [trace]ah_server.c:235(handler_memo_request): run: /home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 10}' -p deposit 2>&1
+[2019-07-18 16:05:49.028172] [16189] [trace]ah_server.c:251(handler_memo_request): cleos response:
+executed transaction: b55a98c3f535ae358109529cb6037b167e84535bb4032fda5041c95273da1163  104 bytes  152 us
+warn  2019-07-18T08:05:49.027 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":10}
+[2019-07-18 16:05:49.028343] [16189] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:57078 close
+[2019-07-18 16:15:33.061826] [16188] [vip]ut_signal.c:82(signal_handler): [16188]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:15:33.061835] [16189] [vip]ut_signal.c:82(signal_handler): [16189]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:15:33.061763] [16186] [vip]ut_signal.c:82(signal_handler): [16186]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:15:33.061798] [16187] [vip]ut_signal.c:82(signal_handler): [16187]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:15:33.139015] [16188] [vip]ah_main.c:117(main): server stop
+[2019-07-18 16:15:33.139469] [16189] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:15:33.139573] [16189] [vip]ah_main.c:117(main): server stop
+[2019-07-18 16:15:34.066657] [16590] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:15:34.066507] [16591] [info]ah_server.c:370(on_listener_connect): connect listener fail
+[2019-07-18 16:15:34.066666] [16591] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:15:34.066687] [16591] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/currency_server_listener.sock close
+[2019-07-18 16:15:34.066694] [16591] [vip]ah_main.c:114(main): server start
+[2019-07-18 16:15:35.067143] [16591] [info]ah_server.c:368(on_listener_connect): connect listener success
+[2019-07-18 16:15:35.067183] [16590] [info]ah_listener.c:73(worker_on_new_connection): new worker connected, current worker number: 1
+[2019-07-18 16:15:37.353783] [16591] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:35842
+[2019-07-18 16:15:37.353862] [16591] [trace]ah_server.c:273(on_http_request): new http request, url: /, method: 3
+[2019-07-18 16:15:37.353870] [16591] [trace]ah_server.c:295(on_http_request): from: 10.235.20.85:35842 body: {"id":16,"method":"contract.insert_memo","params":[11]}
+[2019-07-18 16:15:37.353873] [16591] [trace]ah_server.c:236(handler_memo_request): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 11}' -p deposit 2>&1
+[2019-07-18 16:15:37.366877] [16591] [trace]ah_server.c:249(handler_memo_request): cmd response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+[2019-07-18 16:15:37.366930] [16591] [trace]ah_server.c:106(unlock_wallet): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 16:15:37.371788] [16591] [trace]ah_server.c:120(unlock_wallet): cmd response:
+Unlocked: default
+
+[2019-07-18 16:15:37.371793] [16591] [trace]ah_server.c:236(handler_memo_request): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos --wallet-url unix:///home/liul/eosio-wallet/keosd.sock push action deposit insert '{"memo": 11}' -p deposit 2>&1
+[2019-07-18 16:15:37.392392] [16591] [trace]ah_server.c:249(handler_memo_request): cmd response:
+executed transaction: 2b55353137b44baace010156fe35bde82eb480b23a5d0a0889af1ebfcb512e46  104 bytes  181 us
+warn  2019-07-18T08:15:37.391 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#       deposit <= deposit::insert              {"memo":11}
+[2019-07-18 16:15:37.392616] [16591] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:35842 close
+[2019-07-18 16:16:25.298890] [16591] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:36424
+[2019-07-18 16:16:25.298951] [16591] [trace]ah_server.c:273(on_http_request): new http request, url: /, method: 3
+[2019-07-18 16:16:25.298960] [16591] [trace]ah_server.c:295(on_http_request): from: 10.235.20.85:36424 body: {"id":16,"method":"balance.withdraw","params":["eosio", "0.0002 KBT", 66]}
+[2019-07-18 16:16:25.298963] [16591] [trace]ah_server.c:171(handler_withdraw_request): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos transfer deposit eosio "0.0002 KBT"  66 2>&1
+[2019-07-18 16:16:25.312923] [16591] [trace]ah_server.c:184(handler_withdraw_request): cmd response:
+[31mError 3050003: eosio_assert_message assertion failure[0m
+[33mError Details:
+assertion failure with message: Not meeting the minimum amount[0m
+[2019-07-18 16:16:25.313165] [16591] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:36424 close
+[2019-07-18 16:16:35.122330] [16591] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:36560
+[2019-07-18 16:16:35.122384] [16591] [trace]ah_server.c:273(on_http_request): new http request, url: /, method: 3
+[2019-07-18 16:16:35.122392] [16591] [trace]ah_server.c:295(on_http_request): from: 10.235.20.85:36560 body: {"id":16,"method":"balance.withdraw","params":["eosio", "0.0022 KBT", 66]}
+[2019-07-18 16:16:35.122395] [16591] [trace]ah_server.c:171(handler_withdraw_request): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos transfer deposit eosio "0.0022 KBT"  66 2>&1
+[2019-07-18 16:16:35.132964] [16591] [trace]ah_server.c:184(handler_withdraw_request): cmd response:
+executed transaction: 9ff56943a25fcc068a16778aa29044348cb947fd820c0dd166f1447acc851904  128 bytes  202 us
+warn  2019-07-18T08:16:35.132 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#   evsio.token <= evsio.token::transfer        {"from":"deposit","to":"eosio","quantity":"0.0022 KBT","memo":"66"}
+#       deposit <= evsio.token::transfer        {"from":"deposit","to":"eosio","quantity":"0.0022 KBT","memo":"66"}
+#         eosio <= evsio.token::transfer        {"from":"deposit","to":"eosio","quantity":"0.0022 KBT","memo":"66"}
+[2019-07-18 16:16:35.133156] [16591] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:36560 close
+[2019-07-18 16:16:59.650012] [16591] [trace]ut_http_svr.c:114(on_new_connection): new connection from: 10.235.20.85:36854
+[2019-07-18 16:16:59.650076] [16591] [trace]ah_server.c:273(on_http_request): new http request, url: /, method: 3
+[2019-07-18 16:16:59.650103] [16591] [trace]ah_server.c:295(on_http_request): from: 10.235.20.85:36854 body: {"id":16,"method":"balance.withdraw","params":["eosio", "0.0022 KBT", 66]}
+[2019-07-18 16:16:59.650106] [16591] [trace]ah_server.c:171(handler_withdraw_request): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos transfer deposit eosio "0.0022 KBT"  66 2>&1
+[2019-07-18 16:16:59.665233] [16591] [trace]ah_server.c:184(handler_withdraw_request): cmd response:
+"/home/liul/Code/evs/build/programs/keosd/keosd" launched
+[31mError 3120006: No available wallet[0m
+[32mEnsure that you have created a wallet and have it open[0m
+[33mError Details:
+You don't have any wallet![0m
+[2019-07-18 16:16:59.665267] [16591] [trace]ah_server.c:106(unlock_wallet): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos wallet unlock --password PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8 2>&1
+[2019-07-18 16:16:59.670459] [16591] [trace]ah_server.c:120(unlock_wallet): cmd response:
+Unlocked: default
+
+[2019-07-18 16:16:59.670469] [16591] [trace]ah_server.c:171(handler_withdraw_request): run cmd:
+/home/liul/Code/evs/build/programs/cleos/cleos transfer deposit eosio "0.0022 KBT"  66 2>&1
+[2019-07-18 16:16:59.690777] [16591] [trace]ah_server.c:184(handler_withdraw_request): cmd response:
+executed transaction: 52c7a71dabe3188b9519783fe356fa3d39f4511192a3b3a958d1d66bc9ce87a9  128 bytes  190 us
+warn  2019-07-18T08:16:59.690 thread-0  main.cpp:495                  print_result         ] warning: transaction executed locally, but may not be confirmed by the network yet
+#   evsio.token <= evsio.token::transfer        {"from":"deposit","to":"eosio","quantity":"0.0022 KBT","memo":"66"}
+#       deposit <= evsio.token::transfer        {"from":"deposit","to":"eosio","quantity":"0.0022 KBT","memo":"66"}
+#         eosio <= evsio.token::transfer        {"from":"deposit","to":"eosio","quantity":"0.0022 KBT","memo":"66"}
+[2019-07-18 16:16:59.690941] [16591] [trace]ut_http_svr.c:125(on_connection_close): connection 10.235.20.85:36854 close
+[2019-07-18 16:24:04.679166] [16590] [vip]ut_signal.c:82(signal_handler): [16590]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:24:04.679174] [16591] [vip]ut_signal.c:82(signal_handler): [16591]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:24:04.679128] [16588] [vip]ut_signal.c:82(signal_handler): [16588]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:24:04.679165] [16589] [vip]ut_signal.c:82(signal_handler): [16589]signal: 3 (SIGQUIT) received, exiting
+[2019-07-18 16:24:05.066652] [16590] [vip]ah_main.c:117(main): server stop
+[2019-07-18 16:24:05.066684] [16591] [vip]ah_main.c:117(main): server stop

@@ -1,0 +1,23 @@
+{
+    "debug": true,
+    "process": {
+        "file_limit": 1000000,
+        "core_limit": 1000000000
+    },
+    "log": {
+        "path": "/var/log/trade/currency_server_helper",
+        "flag": "fatal,error,warn,info,debug,trace",
+        "num": 10
+    },
+    "svr": {
+        "bind": [
+            "tcp@0.0.0.0:8082"
+        ],
+        "max_pkg_size": 102400
+    },
+    "worker_num": 1,
+    "excutor": "/home/liul/Code/evs/build/programs/cleos/cleos",
+    "wallet_passwd": "PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8",
+    "funds_user": "deposit",
+    "contract_user": "deposit"
+}

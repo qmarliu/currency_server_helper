@@ -1,0 +1,172 @@
+[2019-06-27 18:01:26.550026] [8218] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:01:26.550045] [8218] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:01:26.550051] [8218] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:01:52.836840] [8283] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:01:52.836859] [8283] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:01:52.836863] [8283] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:02:10.516051] [8341] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:02:10.516210] [8341] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:02:10.516231] [8341] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:02:26.879960] [8399] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:02:26.880047] [8399] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:02:26.880066] [8399] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:28.610609] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:28.610629] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:28.610633] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:30.175193] [8533] [vip]ah_main.c:116(main): server start
+[2019-06-27 18:03:30.175262] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:30.175264] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:30.175268] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:30.175271] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:30.175304] [8533] [error]ut_rpc_clt.c:48(on_close): connection matchengine -> 127.0.0.1:7316 close
+[2019-06-27 18:03:30.175336] [8533] [error]ut_rpc_clt.c:48(on_close): connection readhistory -> 127.0.0.1:7424 close
+[2019-06-27 18:03:30.175365] [8533] [info]ah_server.c:181(on_backend_connect): connect readhistory:127.0.0.1:7424 success
+[2019-06-27 18:03:30.175367] [8533] [info]ah_server.c:181(on_backend_connect): connect matchengine:127.0.0.1:7316 success
+[2019-06-27 18:03:30.175369] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:30.175370] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:31.176167] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:31.176274] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:31.176293] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:31.176401] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:31.176408] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:32.177258] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:32.177394] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:32.177415] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:32.177543] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:32.177551] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:33.178347] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:33.178457] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:33.178476] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:33.178584] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:33.178592] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:34.179322] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:34.179429] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:34.179448] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:34.179547] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:34.179555] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:35.180317] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:35.180428] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:35.180446] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:35.180557] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:35.180564] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:36.180593] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:36.180695] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:36.180713] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:36.180828] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:36.180835] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:37.180818] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:37.180923] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:37.180942] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:37.182136] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:37.182147] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:38.181017] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:38.181122] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:38.181142] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:38.182374] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:38.182384] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:39.181302] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:39.181405] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:39.181423] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:39.182656] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:39.182666] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:40.182309] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:40.182412] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:40.182431] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:40.183664] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:40.183674] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:41.182686] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:41.182788] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:41.182807] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:41.184002] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:41.184012] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:42.182918] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:42.183025] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:42.183044] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:42.184276] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:42.184286] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:43.183280] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:43.183383] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:43.183403] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:43.184654] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:43.184664] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:44.184278] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:44.184381] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:44.184400] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:44.185627] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:44.185637] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:45.185278] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:45.185380] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:45.185399] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:45.186632] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:45.186642] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:46.185641] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:46.185776] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:46.185797] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:46.187031] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:46.187041] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:47.185888] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:47.185993] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:47.186013] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:47.187250] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:47.187260] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:48.186269] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:48.186373] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:48.186392] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:48.187623] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:48.187633] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:49.187288] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:49.187391] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:49.187410] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:49.188642] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:49.188652] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:50.187662] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:50.187764] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:50.187783] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:50.189016] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:50.189026] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:51.187923] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:51.188027] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:51.188047] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:51.189297] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:51.189306] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:52.188321] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:52.188425] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:52.188444] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:52.189639] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:52.189649] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:53.189301] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:53.189405] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:53.189424] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:53.190648] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:53.190658] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:54.190304] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:54.190413] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:54.190433] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:54.191722] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:54.191732] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:55.191293] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:55.191397] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:55.191416] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:55.192604] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:55.192614] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:56.192321] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:56.192431] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:56.192451] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:56.193685] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:56.193694] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:57.192740] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:57.192848] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:57.192868] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:57.194058] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:57.194068] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:58.192783] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:58.192890] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:58.192908] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:58.195242] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:58.195252] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:03:59.193234] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
+[2019-06-27 18:03:59.193339] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:59.193357] [8533] [error]ut_rpc_clt.c:48(on_close): connection listener -> unix:/tmp/accesshttp_listener.sock close
+[2019-06-27 18:03:59.195700] [8533] [info]ah_server.c:183(on_backend_connect): connect marketprice:127.0.0.1:7416 fail
+[2019-06-27 18:03:59.195710] [8533] [error]ut_rpc_clt.c:48(on_close): connection marketprice -> 127.0.0.1:7416 close
+[2019-06-27 18:04:00.193741] [8533] [info]ah_server.c:207(on_listener_connect): connect listener fail
