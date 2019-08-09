@@ -47,6 +47,7 @@ struct settings {
     double              timeout;
     int                 worker_num;
     char *              excutor;
+    char *              node;
     char *              passwd;
     char *              funds_user;
     char *              contract_user;

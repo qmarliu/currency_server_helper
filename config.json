@@ -16,8 +16,9 @@
         "max_pkg_size": 102400
     },
     "worker_num": 1,
-    "excutor": "/home/liul/Code/evs/build/programs/cleos/cleos",
-    "wallet_passwd": "PW5KRu92ZLqjCG4L4wNNKkp48jPzRSiwo8fepYts6njKXo4LyJqC8",
+    "excutor": "/home/liul/opt/eosio/bin/cleos",
+    "wallet_passwd": "PW5KYvNHKQaAgrNwNTfhhjBCEfyCyTsa4sBVb8ka1hrPwDaFy56rM",
+    "node": "http://10.235.20.85:8888",
     "funds_user": "deposit",
     "contract_user": "deposit"
 }

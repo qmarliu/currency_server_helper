@@ -134,6 +134,8 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
 {
     char cmd[1024] = "";
     strcat(cmd, val);
+    strcat(cmd, " -u ");
+    strcat(cmd, settings.node);
     strcat(cmd, " transfer ");
     strcat(cmd, settings.funds_user);
     strcat(cmd, " ");
@@ -217,6 +219,8 @@ static int handler_memo_request(nw_ses *ses, const char *val, int64_t id, json_t
 {
     char cmd[1024] = "";
     strcat(cmd, val);
+    strcat(cmd, " -u ");
+    strcat(cmd, settings.node);
     strcat(cmd, " push action ");
     strcat(cmd, settings.contract_user);
     if (type == 1)

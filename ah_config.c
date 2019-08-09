@@ -28,6 +28,7 @@ static int read_config_from_json(json_t *root)
     ERR_RET(read_cfg_real(root, "timeout", &settings.timeout, false, 1.0));
     ERR_RET(read_cfg_int(root, "worker_num", &settings.worker_num, false, 1));
     ERR_RET(read_cfg_str(root, "excutor", &settings.excutor, NULL));
+    ERR_RET(read_cfg_str(root, "node", &settings.node, NULL));
     ERR_RET(read_cfg_str(root, "wallet_passwd", &settings.passwd, NULL));
     ERR_RET(read_cfg_str(root, "funds_user", &settings.funds_user, NULL));
     ERR_RET(read_cfg_str(root, "contract_user", &settings.contract_user, NULL));
