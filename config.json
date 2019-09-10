@@ -5,7 +5,7 @@
         "core_limit": 1000000000
     },
     "log": {
-        "path": "/var/log/trade/currency_server_helper",
+        "path": "/home/liul/Code/currency_server_helper",
         "flag": "fatal,error,warn,info,debug,trace",
         "num": 10
     },
@@ -18,7 +18,7 @@
     "worker_num": 1,
     "excutor": "/home/liul/opt/eosio/bin/cleos",
     "wallet_passwd": "PW5KYvNHKQaAgrNwNTfhhjBCEfyCyTsa4sBVb8ka1hrPwDaFy56rM",
-    "node": "http://10.235.20.85:8888",
+    "node": "http://10.235.20.211:8888",
     "funds_user": "deposit",
     "contract_user": "deposit"
 }

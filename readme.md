@@ -61,15 +61,15 @@ git clone https://github.com/qmarliu/tgc-currency-server
 程序提供http接口来提现，下面用是curl命令调用接口的示例
 1. 插入memo
 curl http://10.235.20.85:8082 -d '{"id":16,"method":"contract.insert_memo","params":[66]}'
+返回示例
+{"error": null, "result": {"status": "success", "txid": "5b1958188bc90c4353814db5f235c1a62e695838421c37c9154575e1e248a42f"}, "id": 16}
 说明：当用户要充值时，需要给用户一个memo值，币服务器会分析出memo，后台会根据memo找到对应的用户。memo要是一个数值
 2. 提现操作
-curl http://10.235.20.85:8082 -d '{"id":16,"method":"balance.withdraw","params":["eosio", "50.0000 TGC", 66, 10001]}'
-说明： 从账户中转账50.0000个TGC到eosio账户，转账memo是"66 10001"，如是您业务转账不需要memo等额外信息，可以随便填写。
-格外说明：
-调用提现接口，一定要确保用户账户上有钱。
-调用提现接口，一定要确保用户账户上有钱。
-调用提现接口，一定要确保用户账户上有钱。
-如果用户没有那么多钱，但我们的提现账户有这么多钱，那么这笔转账在链上是成功的，会转给用户，所以这个接口也返回成功；
-但用户交易所账户没有这么多钱，所以币服务器调用撮合接口的时候会失败，导致用户扣不了钱。
+curl http://10.235.20.85:8082 -d '{"id":16,"method":"balance.withdraw","params":["eosio", "50.0000 TGC", "66"]}'
+说明： 从账户中转账50.0000个TGC到eosio账户，转账memo是"66"
+返回示例
+{"error": null, "result": {"status": "success", "txid": "0570c647e727ea6a9c712edb34952b9956dfc50aa35c37f7fd6d0c60dc89c182"}, "id": 16}
 3. 删除memo。
 curl http://10.235.20.85:8082 -d '{"id":16,"method":"contract.erase_memo","params":[66]}'
+返回示例
+{"error": null, "result": {"status": "success", "txid": "772b9f7af6c91bca0c8abe78971bd8e907382494edb339e5e8af2dbde6aa8928"}, "id": 16}

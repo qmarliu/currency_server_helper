@@ -63,10 +63,16 @@ static void reply_time_out(nw_ses *ses, int64_t id)
     reply_error(ses, id, 5, "service timeout", 504);
 }
 
-static void replay_success(nw_ses *ses, int64_t id/* , const char *message*/)
+static void replay_success(nw_ses *ses, int64_t id , const char *txid)
 {
+    char txid_array[65];
+    if (strlen(txid) > 64) {
+        strncpy(txid_array, txid + strlen("executed transaction: "), 64);
+    }
+    txid_array[64] = '\0';
     json_t *result = json_object();
     json_object_set_new(result, "status", json_string("success"));
+    json_object_set_new(result, "txid", json_string(txid_array));
     // json_object_set_new(result, "message", json_string(message));
     json_t *reply = json_object();
     json_object_set_new(reply, "error", json_null());
@@ -139,7 +145,7 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
     strcat(cmd, " transfer ");
     strcat(cmd, settings.funds_user);
     strcat(cmd, " ");
-    if (json_array_size(params) != 4) {
+    if (json_array_size(params) != 3) {
         replay_faild(ses, id, 1, "Parameter error");
         return -__LINE__;
     }
@@ -159,22 +165,18 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
     strcat(cmd, quanlity);
     strcat(cmd, "\" ");
 
-    uint64_t memo = json_integer_value(json_array_get(params, 2));
-    if (memo == 0) {
-        replay_faild(ses, id, 1, "Parameter error");
-        return -__LINE__;
-    }
-    uint64_t business_id = json_integer_value(json_array_get(params, 3));
-    if (business_id == 0) {
-        replay_faild(ses, id, 1, "Parameter error");
-        return -__LINE__;
-    }
-    char number[20] = "";
+    const char *memo = json_string_value(json_array_get(params, 2));
+    // if (memo == 0) {
+    //     replay_faild(ses, id, 1, "Parameter error");
+    //     return -__LINE__;
+    // }
+    // uint64_t business_id = json_integer_value(json_array_get(params, 3));
+    // if (business_id == 0) {
+    //     replay_faild(ses, id, 1, "Parameter error");
+    //     return -__LINE__;
+    // }
     strcat(cmd, "\"");
-    sprintf(number, "%ld", memo);
-    strcat(cmd, number);
-    sprintf(number, " %ld", business_id);
-    strcat(cmd, number);
+    strcat(cmd, memo);
     strcat(cmd, "\"");
 
     strcat(cmd, " 2>&1");
@@ -195,7 +197,7 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
             strip_last_line_break(result);
             log_trace("cmd response:\n%s", result);
             if (strstr(result, "executed transaction")) {
-                replay_success(ses, id);
+                replay_success(ses, id, result);
             } else if (strstr(result, "Error 3120006: No available wallet") || strstr(result, "Error 3120003: Locked wallet")) {
                 if (unlock_wallet(val) == -1) {
                     replay_faild(ses, id, 1, "server inner error");
@@ -260,7 +262,7 @@ static int handler_memo_request(nw_ses *ses, const char *val, int64_t id, json_t
             strip_last_line_break(result);
             log_trace("cmd response:\n%s", result);
             if (strstr(result, "executed transaction")) {
-                replay_success(ses, id);
+                replay_success(ses, id, result);
             } else if (strstr(result, "Error 3120006: No available wallet") || strstr(result, "Error 3120003: Locked wallet")) {
                 if (unlock_wallet(val) == -1) {
                     replay_faild(ses, id, 1, "server inner error");

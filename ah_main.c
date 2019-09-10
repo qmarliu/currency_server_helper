@@ -67,10 +67,10 @@ int main(int argc, char *argv[])
     if (ret < 0) {
         error(EXIT_FAILURE, errno, "load config fail: %d", ret);
     }
-    ret = init_process();
-    if (ret < 0) {
-        error(EXIT_FAILURE, errno, "init process fail: %d", ret);
-    }
+    // ret = init_process();
+    // if (ret < 0) {
+    //     error(EXIT_FAILURE, errno, "init process fail: %d", ret);
+    // }
     ret = init_log();
     if (ret < 0) {
         error(EXIT_FAILURE, errno, "init log fail: %d", ret);
