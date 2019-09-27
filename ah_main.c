@@ -56,10 +56,10 @@ int main(int argc, char *argv[])
         printf("usage: %s config.json\n", argv[0]);
         exit(EXIT_FAILURE);
     }
-    if (process_exist(__process__) != 0) {
-        printf("process: %s exist\n", __process__);
-        exit(EXIT_FAILURE);
-    }
+    // if (process_exist(__process__) != 0) {
+    //     printf("process: %s exist\n", __process__);
+    //     exit(EXIT_FAILURE);
+    // }
     // process_title_init(argc, argv);
 
     int ret;

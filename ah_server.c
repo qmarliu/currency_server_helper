@@ -138,46 +138,43 @@ static int unlock_wallet(const char *cmd)
 
 static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, json_t *params)
 {
-    char cmd[1024] = "";
-    strcat(cmd, val);
-    strcat(cmd, " -u ");
-    strcat(cmd, settings.node);
-    strcat(cmd, " transfer ");
-    strcat(cmd, settings.funds_user);
-    strcat(cmd, " ");
     if (json_array_size(params) != 3) {
         replay_faild(ses, id, 1, "Parameter error");
         return -__LINE__;
     }
+    char cmd[1024] = "";
+    strcat(cmd, val);
+    strcat(cmd, " -u ");
+    strcat(cmd, settings.node);
+    strcat(cmd, " push action  ");
+    const char *quanlity = json_string_value(json_array_get(params, 1));
+    if (quanlity == NULL) {
+        replay_faild(ses, id, 1, "Parameter error");
+        return -__LINE__;
+    }
+    if (strstr(quanlity, "BBCT")) {
+        strcat(cmd, "bbcttokencom");
+    } else {
+        strcat(cmd, "eosio.token");
+    }
+    strcat(cmd, " transfer  '[\"");
+    strcat(cmd, settings.funds_user);
+    strcat(cmd, "\", \"");
     const char *to = json_string_value(json_array_get(params, 0));
     if (to == NULL) {
         replay_faild(ses, id, 1, "Parameter error");
         return -__LINE__;
     }
     strcat(cmd, to);
-
-    strcat(cmd, " \"");
-    const char *quanlity = json_string_value(json_array_get(params, 1));
-    if (quanlity == NULL) {
-        replay_faild(ses, id, 1, "Parameter error");
-        return -__LINE__;
-    }
+    strcat(cmd, "\", \"");
     strcat(cmd, quanlity);
-    strcat(cmd, "\" ");
+    strcat(cmd, "\", \"");
 
     const char *memo = json_string_value(json_array_get(params, 2));
-    // if (memo == 0) {
-    //     replay_faild(ses, id, 1, "Parameter error");
-    //     return -__LINE__;
-    // }
-    // uint64_t business_id = json_integer_value(json_array_get(params, 3));
-    // if (business_id == 0) {
-    //     replay_faild(ses, id, 1, "Parameter error");
-    //     return -__LINE__;
-    // }
-    strcat(cmd, "\"");
     strcat(cmd, memo);
-    strcat(cmd, "\"");
+    strcat(cmd, "\"]' -p ");
+    strcat(cmd, settings.funds_user);
+    strcat(cmd, "@active");
 
     strcat(cmd, " 2>&1");
     while (true)
@@ -187,6 +184,7 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
         fp = popen(cmd, "r");
         if (fp == NULL) {
             replay_faild(ses, id, 1, "server inner error");
+            pclose(fp);
             return -__LINE__;
         } else {
             char result[10240] = "";
@@ -194,6 +192,7 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
             while (fgets(buffer, sizeof(buffer), fp)) {
                 strcat(result, buffer);
             }
+            pclose(fp);
             strip_last_line_break(result);
             log_trace("cmd response:\n%s", result);
             if (strstr(result, "executed transaction")) {
@@ -252,6 +251,7 @@ static int handler_memo_request(nw_ses *ses, const char *val, int64_t id, json_t
         fp = popen(cmd, "r");
         if (fp == NULL) {
             replay_faild(ses, id, 1, "server inner error");
+            pclose(fp);
             return -__LINE__;
         } else {
             char result[10240] = "";
@@ -259,6 +259,7 @@ static int handler_memo_request(nw_ses *ses, const char *val, int64_t id, json_t
             while (fgets(buffer, sizeof(buffer), fp)) {
                 strcat(result, buffer);
             }
+            pclose(fp);
             strip_last_line_break(result);
             log_trace("cmd response:\n%s", result);
             if (strstr(result, "executed transaction")) {
