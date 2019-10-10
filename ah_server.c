@@ -67,7 +67,10 @@ static void replay_success(nw_ses *ses, int64_t id , const char *txid)
 {
     char txid_array[65];
     if (strlen(txid) > 64) {
-        strncpy(txid_array, txid + strlen("executed transaction: "), 64);
+        if (strstr(txid, "executed transaction: "))
+            strncpy(txid_array, txid + strlen("executed transaction: "), 64);
+        else
+            strcpy(txid_array, "memo exist no txid");
     }
     txid_array[64] = '\0';
     json_t *result = json_object();
@@ -262,7 +265,7 @@ static int handler_memo_request(nw_ses *ses, const char *val, int64_t id, json_t
             pclose(fp);
             strip_last_line_break(result);
             log_trace("cmd response:\n%s", result);
-            if (strstr(result, "executed transaction")) {
+            if (strstr(result, "executed transaction") || strstr(result, "memo exist")) {
                 replay_success(ses, id, result);
             } else if (strstr(result, "Error 3120006: No available wallet") || strstr(result, "Error 3120003: Locked wallet")) {
                 if (unlock_wallet(val) == -1) {

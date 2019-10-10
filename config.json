@@ -18,7 +18,7 @@
     "worker_num": 4,
     "excutor": "/opt/origin-code/bbct/build/bin/cleos",
     "wallet_passwd": "PW5KYvNHKQaAgrNwNTfhhjBCEfyCyTsa4sBVb8ka1hrPwDaFy56rM",
-    "node": "http://peer1.eoshuobipool.com:8181",
+    "node": "http://api.tokenika.io",
     "funds_user": "bbcttokenapp",
     "contract_user": "bbcttokenapp"
 }
