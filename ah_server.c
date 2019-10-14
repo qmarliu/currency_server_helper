@@ -200,6 +200,8 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
             log_trace("cmd response:\n%s", result);
             if (strstr(result, "executed transaction")) {
                 replay_success(ses, id, result);
+            } else if (strstr(result, "Error 3080006: Transaction took too long")) {
+                continue;
             } else if (strstr(result, "Error 3120006: No available wallet") || strstr(result, "Error 3120003: Locked wallet")) {
                 if (unlock_wallet(val) == -1) {
                     replay_faild(ses, id, 1, "server inner error");
