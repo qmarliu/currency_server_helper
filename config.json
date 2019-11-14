@@ -5,7 +5,7 @@
         "core_limit": 1000000000
     },
     "log": {
-        "path": "/home/liul/Code/currency_server_helper",
+        "path": "/opt/log/currency_server_helper",
         "flag": "fatal,error,warn,info,debug,trace",
         "num": 10
     },
@@ -16,9 +16,9 @@
         "max_pkg_size": 102400
     },
     "worker_num": 4,
-    "excutor": "/opt/origin-code/bbct/build/bin/cleos",
-    "wallet_passwd": "PW5KYvNHKQaAgrNwNTfhhjBCEfyCyTsa4sBVb8ka1hrPwDaFy56rM",
-    "node": "http://10.235.20.85:8888",
+    "excutor": "/home/bm/Code/bbct-server/build/bin/cleos",
+    "wallet_passwd": "PW5JAjFiKzi7jCBMEhSZEbB9suzZpsgz1TTm5JrQrY6YyoXcPtW1v",
+    "node": "http://api.eossweden.org",
     "funds_user": "bbcttokenapp",
     "contract_user": "bbcttokenapp"
 }
