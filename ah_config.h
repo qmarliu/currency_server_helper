@@ -28,7 +28,6 @@
 # include "ut_cli.h"
 # include "ut_misc.h"
 # include "ut_list.h"
-# include "ut_kafka.h"
 # include "ut_signal.h"
 # include "ut_config.h"
 # include "ut_rpc_clt.h"
