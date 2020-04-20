@@ -76,8 +76,8 @@ curl http://10.235.20.182:8082 -d '{"id":16,"method":"contract.erase_memo","para
 4. 查询充值地址的余额。
 curl http://10.235.20.182:8082 -d '{"id":16,"method":"recharge.balance","params":["EOS"]}'
 返回示例
-{"error": null, "result": {"status": "success", "acount": "ninevdeposit", "balance": "9999994873.0000 EOS"}, "id": 16}
+{"error": null, "result": {"status": "success", "account": "ninevdeposit", "balance": "9999994873.0000 EOS"}, "id": 16}
 5. 查询提现地址的余额。
 curl http://10.235.20.182:8082 -d '{"id":16,"method":"withdraw.balance","params":["EOS"]}'
 返回示例
-{"error": null, "result": {"status": "success", "acount": "eosio", "balance": "9999994873.0000 EOS"}, "id": 16}
+{"error": null, "result": {"status": "success", "account": "eosio", "balance": "9999994873.0000 EOS"}, "id": 16}
