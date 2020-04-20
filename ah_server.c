@@ -88,6 +88,23 @@ static void replay_success(nw_ses *ses, int64_t id , const char *txid)
     json_decref(reply);
 }
 
+static void replay_query(nw_ses *ses, int64_t id , const char *account, const char *balance)
+{
+    json_t *result = json_object();
+    json_object_set_new(result, "status", json_string("success"));
+    json_object_set_new(result, "account", json_string(account));
+    json_object_set_new(result, "balance", json_string(balance));
+    json_t *reply = json_object();
+    json_object_set_new(reply, "error", json_null());
+    json_object_set_new(reply, "result", result);
+    json_object_set_new(reply, "id", json_integer(id));
+
+    char *reply_str = json_dumps(reply, 0);
+    send_http_response_simple(ses, 200, reply_str, strlen(reply_str));
+    free(reply_str);
+    json_decref(reply);
+}
+
 static void replay_faild(nw_ses *ses, int64_t id, int code, const char *message)
 {
     json_t *error = json_object();
@@ -294,6 +311,94 @@ static int handler_memo_request(nw_ses *ses, const char *val, int64_t id, json_t
     return 0;
 }
 
+static int handler_query_balance_request(nw_ses *ses, const char *val, int64_t id, json_t *params, int type)
+{
+    if (json_array_size(params) != 1) {
+        replay_faild(ses, id, 1, "Parameter error");
+        return -__LINE__;
+    }
+    char cmd[1024] = "";
+    strcat(cmd, val);
+    strcat(cmd, " -u ");
+    strcat(cmd, settings.node);
+    strcat(cmd, " get currency balance ");
+    const char *quanlity = json_string_value(json_array_get(params, 0));
+    if (quanlity == NULL) {
+        replay_faild(ses, id, 1, "Parameter error");
+        return -__LINE__;
+    }
+    if (strstr(quanlity, "EOS")) {
+        strcat(cmd, "eosio.token ");
+        if (type ==1) {
+            strcat(cmd, settings.funds_user);
+        } else {
+            strcat(cmd, settings.contract_user);
+        }
+        strcat(cmd, " EOS");
+    } else if (strstr(quanlity, "KBT")) {
+        strcat(cmd, "ninekbttoken ");
+        if (type ==1) {
+            strcat(cmd, settings.funds_user);
+        } else {
+            strcat(cmd, settings.contract_user);
+        }
+        strcat(cmd, " KBT");
+    } else if (strstr(quanlity, "TGC")) {
+        strcat(cmd, "ninetgctoken ");
+        if (type ==1) {
+            strcat(cmd, settings.funds_user);
+        } else {
+            strcat(cmd, settings.contract_user);
+        }
+        strcat(cmd, " TGC");
+    } else if (strstr(quanlity, "EVS")) {
+        strcat(cmd, "nineevstoken ");
+        if (type ==1) {
+            strcat(cmd, settings.funds_user);
+        } else {
+            strcat(cmd, settings.contract_user);
+        }
+        strcat(cmd, " EVS");
+    } else {
+        strcat(cmd, "eosio.token ");
+        if (type ==1) {
+            strcat(cmd, settings.funds_user);
+        } else {
+            strcat(cmd, settings.contract_user);
+        }
+        strcat(cmd, " EOS");
+    }
+
+    strcat(cmd, " 2>&1");
+    while (true)
+    {
+        log_trace("run cmd:\n%s", cmd);
+        FILE *fp;
+        fp = popen(cmd, "r");
+        if (fp == NULL) {
+            replay_faild(ses, id, 1, "server inner error");
+            pclose(fp);
+            return -__LINE__;
+        } else {
+            char result[10240] = "";
+            char buffer[80] = "";
+            while (fgets(buffer, sizeof(buffer), fp)) {
+                strcat(result, buffer);
+            }
+            pclose(fp);
+            strip_last_line_break(result);
+            log_trace("cmd response:\n%s", result);
+            if (type ==1) {
+                replay_query(ses, id, settings.funds_user, result);
+            } else {
+                replay_query(ses, id, settings.contract_user, result);
+            }
+        }
+        break;
+    }
+    return 0;
+}
+
 static int on_http_request(nw_ses *ses, http_request_t *request)
 {
     log_trace("new http request, url: %s, method: %u", request->url, request->method);
@@ -330,6 +435,10 @@ static int on_http_request(nw_ses *ses, http_request_t *request)
             handler_memo_request(ses, entry->val, json_integer_value(id), params, 1);
         } else if (strcmp(json_string_value(method), "contract.erase_memo") == 0) {
             handler_memo_request(ses, entry->val, json_integer_value(id), params, 2);
+        } else if (strcmp(json_string_value(method), "recharge.balance") == 0) {
+            handler_query_balance_request(ses, entry->val, json_integer_value(id), params, 2);
+        } else if (strcmp(json_string_value(method), "withdraw.balance") == 0) {
+            handler_query_balance_request(ses, entry->val, json_integer_value(id), params, 1);
         }
     }
 
@@ -450,6 +559,8 @@ static int init_methods_handler(void)
     ERR_RET_LN(add_handler("balance.withdraw", settings.excutor));
     ERR_RET_LN(add_handler("contract.insert_memo", settings.excutor));
     ERR_RET_LN(add_handler("contract.erase_memo", settings.excutor));
+    ERR_RET_LN(add_handler("recharge.balance", settings.excutor));
+    ERR_RET_LN(add_handler("withdraw.balance", settings.excutor));
 
     return 0;
 }
