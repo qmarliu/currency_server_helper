@@ -155,8 +155,14 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
         replay_faild(ses, id, 1, "Parameter error");
         return -__LINE__;
     }
-    if (strstr(quanlity, "BBCT")) {
-        strcat(cmd, "bbcttokencom");
+    if (strstr(quanlity, "EOS")) {
+        strcat(cmd, "eosio.token");
+    } else if (strstr(quanlity, "KBT")) {
+        strcat(cmd, "ninekbttoken");
+    } else if (strstr(quanlity, "TGC")) {
+        strcat(cmd, "ninetgctoken");
+    } else if (strstr(quanlity, "EVS")) {
+        strcat(cmd, "nineevstoken");
     } else {
         strcat(cmd, "eosio.token");
     }
@@ -204,12 +210,12 @@ static int handler_withdraw_request(nw_ses *ses, const char *val, int64_t id, js
                 continue;
             } else if (strstr(result, "Error 3120006: No available wallet") || strstr(result, "Error 3120003: Locked wallet")) {
                 if (unlock_wallet(val) == -1) {
-                    replay_faild(ses, id, 1, "server inner error");
+                    replay_faild(ses, id, 3, "server inner error");
                     return -__LINE__;
                 }
                 continue;
             } else if (strstr(result, "Usage:") || strstr(result, "ERROR:")) {
-                replay_faild(ses, id, 1, "Parameter error");
+                replay_faild(ses, id, 2, "Parameter error");
                 return -__LINE__;
             } else {
                 replay_faild(ses, id, 1, result);

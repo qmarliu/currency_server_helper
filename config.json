@@ -15,10 +15,10 @@
         ],
         "max_pkg_size": 102400
     },
-    "worker_num": 4,
-    "excutor": "/home/bm/Code/bbct-server/build/bin/cleos",
+    "worker_num": 2,
+    "excutor": "/home/bm/Code/ninev_eos_currency_server/build/bin/cleos",
     "wallet_passwd": "PW5JAjFiKzi7jCBMEhSZEbB9suzZpsgz1TTm5JrQrY6YyoXcPtW1v",
-    "node": "http://api.eossweden.org",
-    "funds_user": "bbcttokenapp",
-    "contract_user": "bbcttokenapp"
+    "node": "http://10.235.20.182:8889",
+    "funds_user": "eosio",
+    "contract_user": "ninevdeposit"
 }
